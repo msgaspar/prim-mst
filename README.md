@@ -12,4 +12,6 @@ The task is to run Prim's minimum spanning tree algorithm on this graph. You sho
 
 This graph is small enough that the straightforward O(mn) time implementation of Prim's algorithm should work fine. For those seeking an additional challenge, try implementing a heap-based version. The simpler approach, which should already give you a healthy speed-up, is to maintain relevant edges in a heap (with keys = edge costs). The superior approach stores the unprocessed vertices in the heap, as described in lecture. Note this requires a heap that supports deletions, and you'll probably need to maintain some kind of mapping between vertices and their positions in the heap.
 
+### References
+
 > The information presented here and the problem were taken from the book [Algorithms Illuminated](http://algorithmsilluminated.org), by Tim Roughgarden.
